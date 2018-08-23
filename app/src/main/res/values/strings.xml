@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RandomRhyme</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorites">Favorites</string>
+
+    <string name="send_to">Share with:</string>
+    <string name="cd_favorite_icon">Mark as favorite</string>
+    <string name="cd_share_icon">Share Poem</string>
+    <string name="cd_new_poem_icon">New Poem</string>
+    <string name="error_message">An unexpected error has been occurred.</string>
+    <string name="send_to_widget">Send to widget</string>
+    <string name="toast_home_screen">Currently you are on the Home Screen!</string>
+    <string name="toast_favorites_screen">Currently you are on the Favorites Screen!</string>
+    <string name="added_to_favorites">Successfully added to Favorites!</string>
+    <string name="get_new_poem">Here comes your brand new Poem!</string>
+    <string name="share_popup">Share</string>
+    <string name="logo">Official logo of the application</string>
+    <string name="network_error_message">Your device is offline. Please check your internet connection!</string>
+    <string name="added_to_widget">Successfully added to widget!</string>
+    <string name="try_again_button">Try Again!</string>
+    <string name="icon_text_favorites">Add to Favorites</string>
+    <string name="icont_text_share">Share</string>
+    <string name="icon_text_new_poem">Get a New Poem</string>
+    <string name="splash_slogan">A Poem A Day Keeps The Saddness Away!</string>
+    <string name="user_information">Please long press on a poem if you want to share or add it to your widget!</string>
+
+</resources>

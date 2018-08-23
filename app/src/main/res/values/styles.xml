@@ -1,0 +1,220 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivity_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MainActivity_Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/toolbar_default_elevation</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="General_Error">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/error_layout_margin</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/error_text_size</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Network_Error">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/error_layout_margin</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/error_text_size</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Error_Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="MainActivity_ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/scv_layout_height</item>
+        <item name="android:layout_margin">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginBottom">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginEnd">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginLeft">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginRight">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginStart">@dimen/scv_general_margin</item>
+        <item name="android:layout_marginTop">@dimen/scv_general_margin</item>
+        <item name="android:layout_weight">0.9</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="SV_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Author_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Title_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/content_margin_top</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PoemBody_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">@dimen/content_margin_top</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="GridLayout_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="Icon_TextView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/icon_text_size</item>
+    </style>
+
+    <style name="RecyclerView_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/rv_marginTop</item>
+    </style>
+
+    <style name="AdView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="Splash_ImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:contentDescription">@string/logo</item>
+    </style>
+
+    <style name="Splash_Slogan">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/splash_slogan_layout_marginTop</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/splash_slogan_textSize</item>
+    </style>
+
+    <style name="Cardview_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:padding">@dimen/cardview_padding</item>
+    </style>
+
+    <style name="CardView_Author">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/cardview_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="CardView_Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/cardview_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardView_Poem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/cv_poem_tv_marginbottom</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/cardview_text_size</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Widget_Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/widget_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/widget_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/widget_margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/widget_margin_top_bottom</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+
+    <style name="Widget_Poem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/widget_margin_end</item>
+        <item name="android:layout_marginStart">@dimen/widget_margin_start</item>
+        <item name="android:layout_marginTop">@dimen/widget_margin_top_bottom</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+
+    <style name="Widget_Author">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginStart">@dimen/widget_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/widget_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/widget_margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/widget_margin_top_bottom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+
+
+</resources>

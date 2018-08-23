@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="icon_text_size">12sp</dimen>
+    <dimen name="toolbar_default_elevation">4dp</dimen>
+    <dimen name="error_layout_margin">18dp</dimen>
+    <dimen name="error_text_size">18sp</dimen>
+    <dimen name="scv_layout_height">0dp</dimen>
+    <dimen name="scv_general_margin">12dp</dimen>
+    <dimen name="content_text_size">18sp</dimen>
+    <dimen name="content_margin_top">12dp</dimen>
+    <dimen name="gridview_marginBottom">6dp</dimen>
+    <dimen name="rv_marginTop">60dp</dimen>
+    <dimen name="splash_slogan_layout_marginTop">72dp</dimen>
+    <dimen name="splash_slogan_textSize">18sp</dimen>
+    <dimen name="cardview_default_elevation">8dp</dimen>
+    <dimen name="cardview_corner_radius">6dp</dimen>
+    <dimen name="cardview_layout_margin_bottom">12dp</dimen>
+    <dimen name="cardview_padding">12dp</dimen>
+    <dimen name="cardview_text_size">18sp</dimen>
+    <dimen name="cv_poem_tv_marginbottom">8dp</dimen>
+    <dimen name="widget_padding">16dp</dimen>
+    <dimen name="widget_margin_start">16dp</dimen>
+    <dimen name="widget_text_size">16sp</dimen>
+    <dimen name="widget_margin_end">16dp</dimen>
+    <dimen name="widget_margin_top_bottom">12dp</dimen>
+</resources>

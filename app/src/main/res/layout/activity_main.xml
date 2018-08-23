@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity_linearLayout"
+
+    style="@style/MainActivity_LinearLayout"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        style="@style/MainActivity_Toolbar"
+        app:logo="@mipmap/ic_launcher"
+        app:logoDescription="@string/logo">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/error_message"
+        style="@style/General_Error"
+        android:text="@string/error_message"
+        tools:text="@tools:sample/lorem" />
+
+
+    <Button
+        android:id="@+id/try_again_button"
+        style="@style/Error_Button"
+        android:text="@string/try_again_button" />
+
+    <TextView
+        android:id="@+id/network_error_message"
+        style="@style/Network_Error"
+        android:text="@string/network_error_message"
+        tools:text="@tools:sample/lorem" />
+
+    <ScrollView style="@style/MainActivity_ScrollView">
+
+        <LinearLayout style="@style/SV_LinearLayout">
+
+            <TextView
+                android:id="@+id/author_textView"
+                style="@style/Author_Style"
+                tools:text="@tools:sample/lorem" />
+
+            <TextView
+                android:id="@+id/title_textView"
+                style="@style/Title_Style"
+                tools:text="@tools:sample/lorem" />
+
+            <TextView
+                android:id="@+id/poemBody_textView"
+                style="@style/PoemBody_Style"
+                tools:text="@tools:sample/lorem/random" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/icon_bar_gridview"
+        style="@style/GridLayout_Style"
+        android:layout_marginBottom="@dimen/gridview_marginBottom"
+        app:columnCount="3"
+        app:rowCount="2">
+
+
+        <ImageView
+            android:id="@+id/favorite_icon"
+            android:contentDescription="@string/cd_favorite_icon"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/share_icon"
+            android:contentDescription="@string/cd_share_icon"
+            android:src="@drawable/ic_action_share"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/new_poem_icon"
+            android:contentDescription="@string/cd_new_poem_icon"
+            android:src="@drawable/ic_action_reload"
+            app:layout_columnWeight="1" />
+
+
+        <!-- Row 2 -->
+        <TextView
+            style="@style/Icon_TextView"
+            android:text="@string/icon_text_favorites"
+            app:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            style="@style/Icon_TextView"
+
+            android:text="@string/icont_text_share"
+            app:layout_gravity="center_horizontal" />
+
+        <TextView
+
+            style="@style/Icon_TextView"
+            android:text="@string/icon_text_new_poem"
+            app:layout_gravity="center_horizontal" />
+
+
+    </android.support.v7.widget.GridLayout>
+
+
+</LinearLayout>

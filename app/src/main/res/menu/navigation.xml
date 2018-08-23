@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/go_to_home_screen"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/go_to_favorites_screen"
+        android:icon="@drawable/ic_action_heart"
+        android:title="@string/title_favorites" />
+
+
+</menu>
